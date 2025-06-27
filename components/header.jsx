@@ -20,6 +20,15 @@ const Header = async () => {
             height={60}
             className="h-12 w-auto object-contain"
           />
+          <h1 style={{ 
+  color: '#2563eb', // blue-600 from Tailwind
+  fontWeight: 700, 
+  fontSize: '1.75rem', 
+  letterSpacing: '0.5px'
+}}>
+  Budgetly
+</h1>
+
         </Link>
 
         {/* Navigation Links - Different for signed in/out users */}
